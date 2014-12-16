@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TESTViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *btnStarbuck;
 
 @end

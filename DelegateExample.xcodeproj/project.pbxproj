@@ -22,6 +22,9 @@
 		8A9FD392196CC61A00E57F1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9FD371196CC61A00E57F1A /* UIKit.framework */; };
 		8A9FD39A196CC61A00E57F1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FD398196CC61A00E57F1A /* InfoPlist.strings */; };
 		8A9FD39C196CC61A00E57F1A /* DelegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FD39B196CC61A00E57F1A /* DelegateExampleTests.m */; };
+		8A9FD3AB196CC6F900E57F1A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FD3AA196CC6F900E57F1A /* Person.m */; };
+		8A9FD3AE196CC7E300E57F1A /* StarbuckCoffeeShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FD3AD196CC7E300E57F1A /* StarbuckCoffeeShop.m */; };
+		8A9FD3B1196CC96600E57F1A /* TrungNguyenCoffeeShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FD3B0196CC96600E57F1A /* TrungNguyenCoffeeShop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,13 @@
 		8A9FD397196CC61A00E57F1A /* DelegateExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateExampleTests-Info.plist"; sourceTree = "<group>"; };
 		8A9FD399196CC61A00E57F1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A9FD39B196CC61A00E57F1A /* DelegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateExampleTests.m; sourceTree = "<group>"; };
+		8A9FD3A8196CC68600E57F1A /* CoffeeShopDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoffeeShopDelegate.h; path = ../CoffeeShopDelegate.h; sourceTree = "<group>"; };
+		8A9FD3A9196CC6F900E57F1A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8A9FD3AA196CC6F900E57F1A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8A9FD3AC196CC7E300E57F1A /* StarbuckCoffeeShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarbuckCoffeeShop.h; sourceTree = "<group>"; };
+		8A9FD3AD196CC7E300E57F1A /* StarbuckCoffeeShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarbuckCoffeeShop.m; sourceTree = "<group>"; };
+		8A9FD3AF196CC96600E57F1A /* TrungNguyenCoffeeShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrungNguyenCoffeeShop.h; sourceTree = "<group>"; };
+		8A9FD3B0196CC96600E57F1A /* TrungNguyenCoffeeShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrungNguyenCoffeeShop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,13 @@
 		8A9FD373196CC61A00E57F1A /* DelegateExample */ = {
 			isa = PBXGroup;
 			children = (
+				8A9FD3AF196CC96600E57F1A /* TrungNguyenCoffeeShop.h */,
+				8A9FD3B0196CC96600E57F1A /* TrungNguyenCoffeeShop.m */,
+				8A9FD3AC196CC7E300E57F1A /* StarbuckCoffeeShop.h */,
+				8A9FD3AD196CC7E300E57F1A /* StarbuckCoffeeShop.m */,
+				8A9FD3A8196CC68600E57F1A /* CoffeeShopDelegate.h */,
+				8A9FD3A9196CC6F900E57F1A /* Person.h */,
+				8A9FD3AA196CC6F900E57F1A /* Person.m */,
 				8A9FD37C196CC61A00E57F1A /* TESTAppDelegate.h */,
 				8A9FD37D196CC61A00E57F1A /* TESTAppDelegate.m */,
 				8A9FD37F196CC61A00E57F1A /* Main_iPhone.storyboard */,
@@ -254,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9FD3B1196CC96600E57F1A /* TrungNguyenCoffeeShop.m in Sources */,
 				8A9FD37E196CC61A00E57F1A /* TESTAppDelegate.m in Sources */,
 				8A9FD387196CC61A00E57F1A /* TESTViewController.m in Sources */,
+				8A9FD3AE196CC7E300E57F1A /* StarbuckCoffeeShop.m in Sources */,
+				8A9FD3AB196CC6F900E57F1A /* Person.m in Sources */,
 				8A9FD37A196CC61A00E57F1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

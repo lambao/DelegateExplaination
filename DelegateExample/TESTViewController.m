@@ -7,6 +7,9 @@
 //
 
 #import "TESTViewController.h"
+#import "Person.h"
+#import "TrungNguyenCoffeeShop.h"
+#import "StarbuckCoffeeShop.h"
 
 @interface TESTViewController ()
 
@@ -24,6 +27,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)btnTrungNguyenTouchUpInside:(id)sender {
+    Person *you = [[Person alloc] init];
+    TrungNguyenCoffeeShop *trungNguyenCoffee = [[TrungNguyenCoffeeShop alloc] init];
+    you.coffeeDelegate = trungNguyenCoffee;
+    [you setCoffeeDelegate:trungNguyenCoffee];
+    [[you coffeeDelegate] makeMeMyCoffee];
+    
+}
+- (IBAction)btnStarbuckTouchUpInside:(id)sender {
+    Person *you = [[Person alloc] init];
+    StarbuckCoffeeShop *starbuckCoffee = [[StarbuckCoffeeShop alloc] init];
+    [you setCoffeeDelegate:starbuckCoffee];
+    [[you coffeeDelegate] makeMeMyCoffee];
 }
 
 @end
